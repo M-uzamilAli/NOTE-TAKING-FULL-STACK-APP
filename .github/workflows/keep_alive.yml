@@ -14,9 +14,6 @@ jobs:
           curl -I https://note-taking-full-stack-app.onrender.com
 
       - name: Prevent Supabase Pause (Checked every 4 days)
-        # We only run this part if it's the 1st or 15th of the month, 
-        # OR you can just let it run every 14 mins too (it won't hurt).
-        # To keep it simple, we will ping the DB every time.
         run: |
           curl -X GET "https://lkuvnupemcccfkvrtthw.supabase.co/rest/v1/" \
           -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \

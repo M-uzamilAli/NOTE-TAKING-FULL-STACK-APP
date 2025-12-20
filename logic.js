@@ -178,7 +178,7 @@
           });
 
           const result = await response.json();
-          if(result.status != "sucess"){
+          if(result.status != "success"){
           showStatus('Unable to Update Note!');
            saveBtn.classList.remove('loading');
            return ;
