@@ -8,7 +8,7 @@ A simple notes app I built to actually *do* the full stack myself, end to end �
 
 ## 🌐 Live Demo
 
-- **UI**: [note-taking-full-stack-app on GitHub Pages](https://muzamilalisuleman.github.io/NOTE-TAKING-FULL-STACK-APP/)
+- **UI**: [note-taking-full-stack-app on GitHub Pages](https://m-uzamilali.github.io/NOTE-TAKING-FULL-STACK-APP/)
 - **API**: hosted on Render (see `logic.js` for the live endpoint)
 
 > Free-tier hosting spins down when idle, so the first request after a while may take a few seconds to wake up — more on that below.
